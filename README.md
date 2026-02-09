@@ -11,81 +11,81 @@ Criar uma página de portfólio pessoal responsiva em HTML5 e CSS3, utilizando *
 ## ✅ Checklist da Atividade
 
 ### 1. Estrutura HTML5
-- [ ] Criar arquivo `index.html` com estrutura HTML5 semântica
-- [ ] Utilizar tags semânticas (`<header>`, `<main>`, `<section>`, `<footer>`, etc.)
-- [ ] Adicionar meta tags para responsividade (`viewport`)
-- [ ] Incluir título apropriado na tag `<title>`
+- [X] Criar arquivo `index.html` com estrutura HTML5 semântica
+- [X] Utilizar tags semânticas (`<header>`, `<main>`, `<section>`, `<footer>`, etc.)
+- [X] Adicionar meta tags para responsividade (`viewport`)
+- [X] Incluir título apropriado na tag `<title>`
 
 ### 2. Seções Obrigatórias
 
 #### 2.1 Cabeçalho/Apresentação
-- [ ] Criar seção com seu nome e foto/avatar
-- [ ] Adicionar breve descrição profissional
-- [ ] Incluir navegação e deixar fixo no topo ou na base
+- [X] Criar seção com seu nome e foto/avatar
+- [X] Adicionar breve descrição profissional
+- [X] Incluir navegação e deixar fixo no topo ou na base
 
 #### 2.2 Principais Trabalhos
-- [ ] Criar seção "Principais Projetos"
-- [ ] Exibir pelo menos 3-6 projetos (pode ser de disciplinas atuais)
-- [ ] Cada projeto deve conter:
+- [X] Criar seção "Principais Projetos"
+- [X] Exibir pelo menos 3-6 projetos (pode ser de disciplinas atuais)
+- [X] Cada projeto deve conter:
   - [ ] Imagem ou thumbnail
-  - [ ] Título do projeto
-  - [ ] Breve descrição
-  - [ ] Link (pode ser fictício)
+  - [X] Título do projeto
+  - [X] Breve descrição
+  - [X] Link (pode ser fictício)
 
 #### 2.3 Habilidades
-- [ ] Criar seção "Skills"
-- [ ] Listar tecnologias/ferramentas que domina
-- [ ] Utilizar ícones ou cards visuais
-- [ ] Organizar de forma visual e atrativa
+- [X] Criar seção "Skills"
+- [X] Listar tecnologias/ferramentas que domina
+- [X] Utilizar ícones ou cards visuais
+- [X] Organizar de forma visual e atrativa
 
 #### 2.4 Interesses Pessoais
-- [ ] Criar seção "Sobre Mim" ou "Interesses"
-- [ ] Adicionar hobbies e interesses pessoais
-- [ ] Apresentar de forma criativa
+- [X] Criar seção "Sobre Mim" ou "Interesses"
+- [X] Adicionar hobbies e interesses pessoais
+- [X] Apresentar de forma criativa
 
 #### 2.5 Redes Sociais
-- [ ] Criar seção com links para redes sociais
-- [ ] Incluir pelo menos 3 redes (GitHub e LinkedIn, e outros como Instagram, tik-tok, x, entre outros)
-- [ ] Utilizar ícones para cada rede social
-- [ ] Links funcionais (podem apontar para perfis reais ou fictícios)
+- [X] Criar seção com links para redes sociais
+- [X] Incluir pelo menos 3 redes (GitHub e LinkedIn, e outros como Instagram, tik-tok, x, entre outros)
+- [X] Utilizar ícones para cada rede social
+- [X] Links funcionais (podem apontar para perfis reais ou fictícios)
 
 ### 3. Estilização CSS3
 
 #### 3.1 CSS Grid Layout
-- [ ] Criar arquivo `portifolio.css` vinculado ao HTML
-- [ ] Utilizar **CSS Grid** para layout principal da página
-- [ ] Aplicar Grid nas seções de projetos e habilidades
-- [ ] Demonstrar uso de propriedades:
-  - [ ] `display: grid`
-  - [ ] `grid-template-columns`
-  - [ ] `grid-template-rows`
-  - [ ] `gap` ou `grid-gap`
-  - [ ] `grid-template-areas` (opcional)
+- [X] Criar arquivo `portifolio.css` vinculado ao HTML
+- [X] Utilizar **CSS Grid** para layout principal da página
+- [X] Aplicar Grid nas seções de projetos e habilidades
+- [X] Demonstrar uso de propriedades:
+  - [X] `display: grid`
+  - [X] `grid-template-columns`
+  - [X] `grid-template-rows`
+  - [X] `gap` ou `grid-gap`
+  - [X] `grid-template-areas` (opcional)
 
 #### 3.2 Design Responsivo
-- [ ] Implementar layout mobile-first
-- [ ] Criar breakpoint para tablet (mínimo 768px)
-- [ ] Criar breakpoint para desktop (mínimo 1024px)
-- [ ] Utilizar `@media queries` para ajustar o grid
-- [ ] Testar em diferentes tamanhos de tela
+- [X] Implementar layout mobile-first
+- [X] Criar breakpoint para tablet (mínimo 768px)
+- [X] Criar breakpoint para desktop (mínimo 1024px)
+- [X] Utilizar `@media queries` para ajustar o grid
+- [X] Testar em diferentes tamanhos de tela
 
 #### 3.3 Estilização Visual
-- [ ] Definir paleta de cores harmônica
-- [ ] Escolher tipografia adequada (Google Fonts recomendado)
-- [ ] Aplicar espaçamentos consistentes
-- [ ] Adicionar estados hover nos elementos interativos
-- [ ] Garantir boa legibilidade e contraste
+- [X] Definir paleta de cores harmônica
+- [X] Escolher tipografia adequada (Google Fonts recomendado)
+- [X] Aplicar espaçamentos consistentes
+- [X] Adicionar estados hover nos elementos interativos
+- [X] Garantir boa legibilidade e contraste
 
 ### 4. Boas Práticas
 
 #### 4.1 Código
-- [ ] Utilizar indentação consistente
-- [ ] Comentar seções do código quando necessário
-- [ ] Nomear classes de forma semântica (BEM recomendado)
-- [ ] Validar HTML no [W3C Validator](https://validator.w3.org/)
+- [X] Utilizar indentação consistente
+- [X] Comentar seções do código quando necessário
+- [X] Nomear classes de forma semântica (BEM recomendado)
+- [X] Validar HTML no [W3C Validator](https://validator.w3.org/)
 
 #### 4.2 Organização
-- [ ] Organizar arquivos em estrutura clara:
+- [X] Organizar arquivos em estrutura clara:
   ```
   /
   ├── index.html

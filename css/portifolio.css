@@ -1,0 +1,169 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIÁVEIS */
+:root {
+    --bg: #0f172a;
+    --bg-alt: #111827;
+    --primary: #38bdf8;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+}
+
+/* BASE */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+.header {
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg);
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav__links a:hover {
+    color: var(--primary);
+}
+
+.hero {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.hero__avatar {
+    width: 140px;
+    border-radius: 50%;
+}
+
+/* SEÇÕES */
+.section {
+    padding: 3rem 1.5rem;
+}
+
+.section--alt {
+    background-color: var(--bg-alt);
+}
+
+.section__title {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+/* GRID PROJETOS */
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #020617;
+    padding: 1.5rem;
+    border-radius: 12px;
+    display: grid;
+    gap: 1rem;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn {
+    margin-top: auto;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* GRID SKILLS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+}
+
+.skill-card {
+    background-color: #020617;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skill-card i {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+/* SOBRE */
+.about-text {
+    max-width: 600px;
+    color: var(--muted);
+}
+
+/* REDES */
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 2rem;
+}
+
+.social-links a:hover {
+    color: var(--primary);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+/* BREAKPOINT TABLET */
+@media (min-width: 768px) {
+    .hero {
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* BREAKPOINT DESKTOP */
+@media (min-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
